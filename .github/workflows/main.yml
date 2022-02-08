@@ -29,4 +29,6 @@ jobs:
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
           MAILPARSER_DOWNLOAD_URL_ID: ${{ secrets.MAILPARSER_DOWNLOAD_URL_ID }}
+          TRUECAPTCHA_USERID: ${{ TRUECAPTCHA_USERID }}
+          TRUECAPTCHA_APIKEY: ${{ TRUECAPTCHA_APIKEY }}
         run: python3 main.py
